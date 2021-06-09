@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,6 +12,21 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Problems/Create an euphonious word" />
+            <option value="$PROJECT_DIR$/Problems/Direction" />
+            <option value="$PROJECT_DIR$/Problems/Fix the program" />
+            <option value="$PROJECT_DIR$/Problems/Function composition" />
+            <option value="$PROJECT_DIR$/Problems/Function generator" />
+            <option value="$PROJECT_DIR$/Problems/Just checking" />
+            <option value="$PROJECT_DIR$/Problems/Just checking (1)" />
+            <option value="$PROJECT_DIR$/Problems/Max" />
+            <option value="$PROJECT_DIR$/Problems/Palindrome" />
+            <option value="$PROJECT_DIR$/Problems/Polynomial" />
+            <option value="$PROJECT_DIR$/Problems/Printing arguments" />
+            <option value="$PROJECT_DIR$/Problems/Range multiplication" />
+            <option value="$PROJECT_DIR$/Problems/Subtraction" />
+            <option value="$PROJECT_DIR$/Problems/The last digit of a number" />
+            <option value="$PROJECT_DIR$/Problems/Using arguments" />
+            <option value="$PROJECT_DIR$/Simple Version Control System/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

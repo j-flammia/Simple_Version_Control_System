@@ -6,5 +6,6 @@ summary: The ability to roll back to the previous versions is crucial for softwa
   and write a simple version control system.<br/><br/>Learn more at <a href="https://hyperskill.org">https://hyperskill.org/projects/177</a>
 programming_language: Kotlin
 content:
+- Simple Version Control System
 - Problems
 mode: Study
