@@ -167,6 +167,9 @@ files:
 
     }
   learner_created: false
+- name: src/svcs/reading files.kt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/177/stages/910/implement#comment
 status: Unchecked
 record: -1

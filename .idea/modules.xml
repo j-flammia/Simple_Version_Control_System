@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Version_Control_System.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Version_Control_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Closed case/Simple_Version_Control_System.Problems-Closed_case.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Closed case/Simple_Version_Control_System.Problems-Closed_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Create an euphonious word/Simple_Version_Control_System.Problems-Create_an_euphonious_word.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Create an euphonious word/Simple_Version_Control_System.Problems-Create_an_euphonious_word.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Direction/Simple_Version_Control_System.Problems-Direction.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Direction/Simple_Version_Control_System.Problems-Direction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Duplication/Simple_Version_Control_System.Problems-Duplication.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Duplication/Simple_Version_Control_System.Problems-Duplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Simple_Version_Control_System.Problems-Fix_the_program.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Fix the program/Simple_Version_Control_System.Problems-Fix_the_program.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Function composition/Simple_Version_Control_System.Problems-Function_composition.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Function composition/Simple_Version_Control_System.Problems-Function_composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Function generator/Simple_Version_Control_System.Problems-Function_generator.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Function generator/Simple_Version_Control_System.Problems-Function_generator.iml" />
