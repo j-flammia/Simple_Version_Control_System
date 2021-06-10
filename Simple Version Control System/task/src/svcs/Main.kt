@@ -1,11 +1,15 @@
 package svcs
 
+import java.io.File
+
 fun main(args: Array<String>) {
+    val command = args[0].split(" ")
+    val config = File("config.txt"); val index = File("index.txt")
     try {
-        when(args[0]) {
+        when(command[0]) {
             "--help" -> printMan()
-            "config" -> config()
-            "add" -> add()
+            "config" -> config(config, command)
+            "add" -> add(index, command)
             "log" -> log()
             "commit" -> commit()
             "checkout" -> checkout()
@@ -23,12 +27,24 @@ fun printMan() {
             "checkout   Restore a file.")
 }
 
-fun config() {
-    println("Get and set a username.")
+fun config(config: File, command: List<String>) {
+    val text = config.readText()
+    if (command[1].isEmpty()) {
+        if (text.isEmpty()) {
+            println("Please, tell me who you are.")
+        } else println("The username is $text")
+    } else config.writeText(command[1])
 }
 
-fun add() {
-    println("Add a file to the index.")
+fun add(index: File, command: List<String>){
+    if (command[1].isEmpty()) {
+        if (index.readText().isEmpty()) println("Add a file to the index.")
+        else println("Tracked Files: \n ${index.readText()}")
+    } else
+        try {
+            val file = File(command[1])
+            index.appendText("\n$file")
+        } catch (e: NoSuchFileException) {println("Can't find '$f'.")}
 }
 
 fun log() {
