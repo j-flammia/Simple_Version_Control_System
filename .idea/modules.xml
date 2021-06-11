@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Version_Control_System.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Version_Control_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check the numbers/Simple_Version_Control_System.Problems-Check_the_numbers.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check the numbers/Simple_Version_Control_System.Problems-Check_the_numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Closed case/Simple_Version_Control_System.Problems-Closed_case.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Closed case/Simple_Version_Control_System.Problems-Closed_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Create an euphonious word/Simple_Version_Control_System.Problems-Create_an_euphonious_word.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Create an euphonious word/Simple_Version_Control_System.Problems-Create_an_euphonious_word.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Direction/Simple_Version_Control_System.Problems-Direction.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Direction/Simple_Version_Control_System.Problems-Direction.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Just checking (1)/Simple_Version_Control_System.Problems-Just_checking__1_.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Just checking (1)/Simple_Version_Control_System.Problems-Just_checking__1_.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Max/Simple_Version_Control_System.Problems-Max.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Max/Simple_Version_Control_System.Problems-Max.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Palindrome/Simple_Version_Control_System.Problems-Palindrome.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Palindrome/Simple_Version_Control_System.Problems-Palindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Simple_Version_Control_System.Problems-Piece_of_alphabet.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Piece of alphabet/Simple_Version_Control_System.Problems-Piece_of_alphabet.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Polynomial/Simple_Version_Control_System.Problems-Polynomial.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Polynomial/Simple_Version_Control_System.Problems-Polynomial.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Printing arguments/Simple_Version_Control_System.Problems-Printing_arguments.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Printing arguments/Simple_Version_Control_System.Problems-Printing_arguments.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Range multiplication/Simple_Version_Control_System.Problems-Range_multiplication.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Range multiplication/Simple_Version_Control_System.Problems-Range_multiplication.iml" />

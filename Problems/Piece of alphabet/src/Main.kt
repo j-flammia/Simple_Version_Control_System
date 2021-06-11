@@ -1,0 +1,1 @@
+fun main() = print(readLine()!! in ('a'..'z').joinToString(""))
