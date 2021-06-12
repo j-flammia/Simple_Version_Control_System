@@ -174,14 +174,11 @@ feedback:
     java.lang.AssertionError: Wrong answer in test #2
 
     Your program should output &quot;Please, tell me who you are.&quot;,
-    but printed: &quot;These are SVCS commands:
-    config     Get and set a username.
-    add        Add a file to the index.
-    log        Show commit logs.
-    commit     Save changes.
-    checkout   Restore a file.
+    but printed: &quot;
+    received &quot;config&quot;
+    some shit broke here...
     &quot;
 
     Arguments: config
-  time: Fri, 11 Jun 2021 10:49:01 UTC
+  time: Sat, 12 Jun 2021 15:14:14 UTC
 record: -1

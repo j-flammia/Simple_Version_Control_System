@@ -3,20 +3,22 @@ package svcs
 import java.io.File
 
 fun main(args: Array<String>) {
+    val commandMain = if (args.isNotEmpty()) args[0] else ""
     val command = if (args.size > 1) args[1] else ""
-    val config = File("C:\\Users\\jorda\\src\\config.txt")
-    val index = File("C:\\Users\\jorda\\src\\index.txt")
+    val config = File("config.txt")
+    val index = File("index.txt")
     try {
-        when(args[0]) {
+        when(commandMain) {
             "--help" -> printMan()
-            "config" -> config(config, command)
-            "add" -> add(index, command)
-            "log" -> log()
-            "commit" -> commit()
-            "checkout" -> checkout()
+            "config" -> { println("\nreceived \"${commandMain}\""); config(config, command) }
+            "add" -> { println("received \"${commandMain}\""); add(index, command) }
+            "log" -> { println("received \"${commandMain}\""); log() }
+            "commit" -> { println("received \"${commandMain}\""); commit() }
+            "checkout" -> { println("received \"${commandMain}\""); checkout() }
+            "" -> printMan()
             else -> wrongCommand(args.joinToString { " " })
         }
-    } catch (e: ) { printMan() }
+    } catch (e: Exception ) { println(": received \"${commandMain}\""); printMan() }
 }
 
 fun printMan() {
@@ -29,12 +31,17 @@ fun printMan() {
 }
 
 fun config(config: File, command: String) {
-    val text = config.readText()
-    if (command.isEmpty()) {
-        if (text.isEmpty()) {
-            println("Please, tell me who you are.")
-        } else println("The username is $text")
-    } else config.writeText(command)
+    try {
+        val text = config.readText()
+        println("text is: \"$text\"")
+        if (command.isEmpty()) {
+            print("empty command\n")
+            if (text.isEmpty()) {
+                print("empty text\n")
+                println("Please, tell me who you are.")
+            } else println("The username is $text")
+        } else config.writeText(command)
+    } catch (e: Exception) {println("some shit broke here...")}
 }
 
 fun add(index: File, command: String){
